@@ -53,3 +53,44 @@
     }
     console.log(i);
  }
+//switch
+
+ let value = 43;
+
+ switch(typeof value){
+    case "number":
+        console.log("Number");
+        break;
+    case "string":
+        console.log("string");
+        break;
+    case "boolean":
+        console.log("boolean");
+        break;
+    default:
+        console.log("other");
+        break;
+    
+ }
+
+ let dayName = 3;
+ switch(typeof dayName){
+    case 1:
+        dayName = "suturday";
+        break;
+    case 2:
+        dayName = "sunday";
+        break;
+    case 3:
+        dayName = "monday";
+        break;
+    case 4:
+        dayName = "tuesday";
+        break;
+    case 5:
+        dayName = "wednesday";
+        break;
+    default:
+        dayName = "free";
+ }
+ console.log("the day is " +dayName);
